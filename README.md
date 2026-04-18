@@ -45,6 +45,15 @@ jupyter notebook
 
 In VS Code, you can also open `salesdataanalysis.ipynb` directly and run cells using the notebook UI.
 
+## Google Colab And Raw Data Source
+
+- This notebook was also used in Google Colab.
+- The notebook includes Colab-specific support via `from google.colab import sheets`.
+- Raw dataset source used in the notebook:
+  - https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv
+- Dataset repository reference:
+  - https://github.com/mwaskom/seaborn-data
+
 ## Recommended Next Structure (Optional)
 
 As the project grows, you can organize files like this:
