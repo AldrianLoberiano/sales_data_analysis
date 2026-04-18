@@ -32,3 +32,14 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## How To Run
+
+1. Start Jupyter Notebook:
+
+```powershell
+jupyter notebook
+```
+
+2. Open `salesdataanalysis.ipynb`.
+3. Run cells from top to bottom to reproduce the full analysis.
+
