@@ -43,3 +43,25 @@ jupyter notebook
 2. Open `salesdataanalysis.ipynb`.
 3. Run cells from top to bottom to reproduce the full analysis.
 
+In VS Code, you can also open `salesdataanalysis.ipynb` directly and run cells using the notebook UI.
+
+## Recommended Next Structure (Optional)
+
+As the project grows, you can organize files like this:
+
+```text
+sales_data_analysis/
+├── data/
+│   ├── raw/                  # Original source files
+│   └── processed/            # Cleaned or transformed datasets
+├── outputs/
+│   ├── figures/              # Exported charts
+│   └── reports/              # Generated summaries
+├── salesdataanalysis.ipynb
+└── README.md
+```
+
+## Notes
+
+- Keep raw data unchanged and perform transformations in notebook cells.
+- Dependencies are listed in `requirements.txt` for quick environment setup.
